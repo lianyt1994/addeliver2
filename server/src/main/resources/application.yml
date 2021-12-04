@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lianyt1994/config-only-a-demo
+          username: lianyt1994
+          password: liant1126
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
